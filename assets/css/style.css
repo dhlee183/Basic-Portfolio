@@ -126,7 +126,12 @@ form {
 	border: solid #D3D3D3;
 	border-width: 1px;
 }
-#message {
+textarea {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 14px;
+	word-wrap: normal;
+	border: solid #D3D3D3;
+	border-width: 1px;
 	width: 515px;
 	height: 140px;
 	left: 90px;
@@ -142,13 +147,6 @@ form {
 	width: 86px;
 	height: 32px;
 	border: solid #4aaaa5;
-}
-textarea {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 14px;
-	word-wrap: break-word;
-	border: solid #D3D3D3;
-	border-width: 1px;
 }
 #portfolio-section {
 	background: #ffffff;

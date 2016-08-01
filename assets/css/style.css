@@ -1,6 +1,9 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	background: url(../images/concrete_seamless.png) repeat;
+}
 header {
 	background: #ffffff;
 	width: 1277px;
@@ -85,7 +88,6 @@ form {
 	background: #ffffff;
 	width: 515px;
 	height: 75px;
-	top: 5px;
 	left: 25px; 
 	border-bottom-style: solid;
 	border-bottom-width: 3px;
@@ -147,6 +149,25 @@ textarea {
 	word-wrap: break-word;
 	border: solid #D3D3D3;
 	border-width: 1px;
+}
+#portfolio-section {
+	background: #ffffff;
+	width: 566px;
+	height: 538px;
+	left: 200px;
+	top: 120px;
+	right: 703px;
+	position: fixed;
+}
+#portfolio-layout {
+	background: #ffffff;
+	width: 515px;
+	height: 75px;
+	left: 25px; 
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #D3D3D3;
+	position: absolute;
 }
 h2 {
 	color: #4aaaa5;

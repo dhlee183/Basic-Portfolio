@@ -1,0 +1,235 @@
+* {
+	box-sizing: border-box;
+}
+header {
+	background: #ffffff;
+	width: 1277px;
+	top: 0;
+	left: 0;
+	height: 85px;
+	padding: 20px;
+	border-bottom-style: solid; 
+	border-bottom-width: 3px;
+	border-bottom-color: #D3D3D3;
+	position: fixed;
+}
+h1 {
+	background: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	height: 85px;
+	left: 200px;
+	bottom: 0px;
+	margin: auto;
+	padding: 27px;
+	position: absolute;
+}
+nav {
+	float: right;
+}
+#about,
+#portfolio,
+#contact {
+	float: left;
+}
+#about {
+	color: #D3D3D3;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+}
+#portfolio {
+	color: #D3D3D3;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+}
+#contact {
+	color: #D3D3D3;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+}
+#about-me {
+	background: #ffffff;
+	width: 566px;
+	height: 417px;
+	left: 200px;
+	top: 120px;
+	right: 703px;
+	position: fixed;
+}
+#about-me-layout {
+	background: #ffffff;
+	width: 515px;
+	height: 75px;
+	left: 25px; 
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #D3D3D3;
+	position: absolute;
+}
+p {
+	margin: auto;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+}
+form {
+	background: #ffffff;
+	width: 566px;
+	height: 417px;
+	left: 200px;
+	top: 120px;
+	right: 703px;
+	position: fixed;
+}
+#contact-layout {
+	background: #ffffff;
+	width: 515px;
+	height: 75px;
+	top: 5px;
+	left: 25px; 
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #D3D3D3;
+	position: absolute;
+}
+#form-info {
+	color: #948a90;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	left: 25px;
+	top: 100px;
+	position: absolute;
+}
+#name {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 14px;
+	width: 515px;
+	height: 20px;
+	left: 90px;
+	top: 273px;
+	right: 531px;
+	bottom: 300px;
+	border: solid #D3D3D3;
+	border-width: 1px;
+}
+#email {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 14px;
+	width: 515px;
+	height: 20px;
+	left: 90px;
+	top: 273px;
+	right: 531px;
+	bottom: 300px;
+	border: solid #D3D3D3;
+	border-width: 1px;
+}
+#message {
+	width: 515px;
+	height: 140px;
+	left: 90px;
+	top: 332px;
+	right: 529px;
+	bottom: 484px;
+}
+#submit {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 14px;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 86px;
+	height: 32px;
+	border: solid #4aaaa5;
+}
+textarea {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 14px;
+	word-wrap: break-word;
+	border: solid #D3D3D3;
+	border-width: 1px;
+}
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	top: 8px;
+	left: 0px;
+	position: absolute;
+}
+#bio-image {
+	width: 173px;
+	height: 132px;
+	left: 25px;
+	top: 100px;
+	position: absolute;	
+}
+#connect-with-me {
+	background: #ffffff;
+	width: 233px;
+	height: 174px;
+	left: 803px;
+	top: 120px;
+	right: 973px;
+	bottom: 289px;
+	padding: 20px;
+	position: fixed;
+}
+#connect-with-me-layout {
+	background: #ffffff;
+	width: 190px;
+	height: 60px;
+	top: 8px;
+	left: 20px; 
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #D3D3D3;
+	position: absolute;
+}
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	left: 8px;
+	position: absolute;
+}
+#github-image,
+#linkedin-image,
+#stackoverflow-image {
+	top: 65px;
+	left: 10px;
+	float: left;
+}
+#github-image {
+	width: 54px;
+	height: 54px;
+	position: relative;
+}
+#linkedin-image {
+	width: 54px;
+	height: 54px;
+	position: relative;
+}
+#stackoverflow-image {
+	width: 49px;
+	height: 48.25px;
+	margin-top: 3px;
+	margin-left: 2px;
+	position: relative;
+}
+footer {
+	background: #666666;
+	top: 575px;
+	width: 1277px;
+	height: 85px;
+	left: 0;
+	padding: 20px;
+	border-top-style: solid;
+	border-top-width: 7px;
+	border-top-color: #4aaaa5;
+	position: fixed;
+}
+h4 {
+	color: #D3D3D3;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}

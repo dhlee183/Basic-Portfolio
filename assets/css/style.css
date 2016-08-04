@@ -91,15 +91,15 @@ a {
 	width: 200px;
 	height: 160px;
 	padding-right: 15px;
-	padding-bottom: 5px;
+	padding-bottom: 8px;
 	position: relative;
 	float: left;
 }
 #bio-text {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
+	line-height: 2;
 	overflow-wrap: normal;
-	padding-right: 10px;
+	bottom: 7px;
+	padding-right: 8px;
 	position: relative;
 	float left;
 }
@@ -135,28 +135,23 @@ form {
 	left: 25px;
 	position: relative;
 }
-#name {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 14px;
-	width: 590px;
-	height: 20px;
-	border: solid #dddddd;
-	border-width: 1px;
-}
+#name,
 #email {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 14px;
 	width: 590px;
 	height: 20px;
-	border: solid #dddddd
+	margin-top: 5px;
+	border: solid #dddddd;
 	border-width: 1px;
-}
+}	
 textarea {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 14px;
 	overflow-wrap: normal;
 	width: 590px;
 	height: 140px;
+	margin-top: 5px;
 	border: solid #dddddd;
 	border-width: 1px;
 }
@@ -192,7 +187,7 @@ h2 {
 	border-bottom-color: #dddddd;
 	position: relative;
 }
-#hm-pg {
+#hm-rpg {
 	width: 590px;
 	height: 125px;
 	top: 50px;
@@ -205,20 +200,12 @@ h2 {
 	position: relative;
 	float: left;
 }
-#hangman-image {
-	width: 260px;
-	height: 125px;
-}
 #rpg-layout {
 	width: 260px;
 	height: 125px;
 	left: 70px;
 	position: relative;
 	float: left;
-}
-#rpggame-image {
-	width: 260px;
-	height: 125px;
 }
 #tg-riw {
 	width: 590px;
@@ -233,20 +220,12 @@ h2 {
 	position: relative;
 	float: left;
 }
-#triviagame-image {
-	width: 260px;
-	height: 125px;
-}
 #riw-layout {	
 	width: 260px;
 	height: 125px;
 	left: 70px;
 	position: relative;
 	float: left;
-}
-#rutgersinfowidget-image {
-	width: 260px;
-	height: 125px;
 }
 #rps {
 	width: 590px;
@@ -259,9 +238,13 @@ h2 {
 	width: 260px;
 	height: 125px;
 }
+#hangman-image,
+#rpggame-image,
+#triviagame-image,
+#rutgersinfowidget-image,
 #rockpaperscissors-image {
-	width: 260px;
-	height: 125px;
+	width: 100%;
+	height: 100%;
 }
 h5 {
 	background: #4aaaa5;
@@ -301,36 +284,31 @@ h3 {
 	text-align: center;
 }
 #connect-links {
+	width: 180px;
+	height: 60px;
 	top: 50px;
-	left: 5px;
+	left: 45px;
 	position: relative;
 }
 #github-image,
-#linkedin-image,
-#stackoverflow-image {
-	left: 40px;
-	float: left;
-	position: relative;
-}
-#github-image {
-	width: 60px;
-	height: 60px;
-}
 #linkedin-image {
 	width: 60px;
-	height: 60px;
+	height: 100%;
+	float: left;
+	position: relative;
 }
 #stackoverflow-image {
 	width: 55px;
 	height: 54.25px;
 	margin-top: 3px;
 	margin-left: 2px;
+	float: left;
+	position: relative;
 }
 footer {
 	background: #666666;
 	width: 100%;
 	height: 85px;
-	left: 0;
 	bottom: 0px;
 	padding: 35px;
 	border-top-style: solid;
